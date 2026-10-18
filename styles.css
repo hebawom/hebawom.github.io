@@ -1,0 +1,147 @@
+/* Shared colours and system typography mirror the iPhone app. No remote assets. */
+:root { --ink:#17343d; --muted:#53666a; --teal:#126f67; --paper:#f7f8f3; --line:#dbe4de; --coral:#b5473e; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:28px; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased; }
+a { color:var(--teal); text-underline-offset:4px; }
+a:focus-visible,summary:focus-visible { outline:3px solid var(--coral); outline-offset:5px; border-radius:4px; }
+img { max-width:100%; }
+.wrap { width:min(1160px,calc(100% - 64px)); margin-inline:auto; }
+.skip { position:absolute; top:-100px; left:20px; z-index:10; padding:12px; background:white; }
+.skip:focus { top:12px; }
+.site-header { display:flex; align-items:center; justify-content:space-between; gap:22px; padding-block:26px; }
+.brand { display:inline-flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none; font-size:23px; font-weight:750; letter-spacing:-.8px; }
+.brand img { border-radius:12px; }
+nav { display:flex; align-items:center; gap:28px; }
+nav a { color:var(--ink); text-decoration:none; font-size:14px; font-weight:600; padding-block:10px; }
+nav a:hover { text-decoration:underline; }
+.hero { min-height:760px; display:grid; grid-template-columns:1.15fr 1fr; align-items:center; gap:56px; padding-block:54px 88px; }
+.eyebrow { color:var(--teal); font-size:11px; font-weight:750; letter-spacing:2px; text-transform:uppercase; margin:0 0 22px; }
+h1,h2,h3,p,figure { margin-top:0; }
+h1,h2,h3 { line-height:1.08; letter-spacing:-.055em; font-weight:720; }
+h1 { font-size:clamp(48px,6.2vw,78px); margin-bottom:26px; }
+h1 span { color:var(--teal); }
+h2 { font-size:clamp(36px,4.4vw,52px); margin-bottom:26px; }
+h3 { font-size:30px; }
+p { margin-bottom:20px; }
+.intro { max-width:490px; color:var(--muted); font-size:19px; line-height:1.65; }
+.actions { display:flex; align-items:center; flex-wrap:wrap; gap:18px; margin-block:32px; }
+.button { display:inline-flex; align-items:center; justify-content:space-between; gap:28px; padding:15px 22px; min-height:52px; border:1px solid transparent; border-radius:11px; background:var(--teal); color:white; font-size:14px; font-weight:650; text-decoration:none; }
+.button:hover { background:#0c554f; }
+.button span { font-size:20px; line-height:1; }
+.coming { color:var(--muted); font-size:12px; }
+.hero-notes { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:16px; color:var(--muted); font-size:12px; }
+.hero-notes li::before { content:"✓"; color:var(--teal); margin-right:7px; font-weight:bold; }
+/* Real screenshots sit in custom iPhone 17-style frames; no screen UI is invented. */
+.preview { position:relative; display:flex; flex-direction:column; align-items:center; margin:0; isolation:isolate; }
+.halo { position:absolute; width:440px; max-width:110%; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle at 35% 35%,#dce9dc,#dbe7e1 65%,#e9eee6); top:92px; z-index:-1; }
+.device-photo-link { display:block; border-radius:38px; text-decoration:none; }
+.device-photo { display:block; }
+.device-photo img { display:block; width:100%; height:auto; }
+.preview .device-photo-link { width:340px; max-width:100%; transform:rotate(3deg); }
+figcaption { color:var(--muted); font-size:11px; text-align:center; margin-top:18px; }
+.screenshot-section { padding-top:56px; }
+.gallery-hint { font-size:14px; color:var(--muted); margin-bottom:8px; }
+.screenshot-gallery { display:grid; grid-auto-flow:column; grid-auto-columns:260px; gap:34px; overflow-x:auto; overscroll-behavior-inline:contain; scroll-snap-type:x proximity; scroll-padding-inline:14px; padding:24px 14px 28px; margin-inline:-14px; scrollbar-color:#a8c7ba transparent; }
+.screenshot-card { scroll-snap-align:start; margin:0; }
+.screenshot-card figcaption { margin-top:12px; }
+.screenshot-card h3 { font-size:20px; letter-spacing:-.5px; margin-bottom:8px; }
+.screenshot-card figcaption p { font-size:11px; margin:0; }
+.story.funding-story { display:block; padding-top:0; }
+.story-copy { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:end; }
+.story-copy p { max-width:none; }
+.landscape-preview { margin:24px 0 0; }
+.landscape-preview .device-photo-link { width:100%; }
+.landscape-preview figcaption { margin-top:4px; }
+.section { padding-block:68px 90px; border-top:1px solid var(--line); }
+.feature-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:40px; }
+.feature { background:#e7eee4; padding:30px; border-radius:22px; display:flex; flex-direction:column; }
+.feature.peach { background:#f4e7dc; }
+.feature.blue { background:#e4eaee; }
+.feature-number { font-size:10px; font-weight:750; letter-spacing:1.4px; margin-bottom:28px; }
+.feature p { color:var(--muted); font-size:14px; }
+.account-art { display:grid; gap:8px; margin-top:auto; padding-top:18px; }
+.account-art span { background:#ffffffc9; border-radius:9px; padding:11px 13px; font-size:12px; display:flex; justify-content:space-between; }
+.account-art .art-total { background:var(--teal); color:white; }
+.lifestyle-art { display:grid; gap:8px; padding-top:18px; margin-top:auto; }
+.lifestyle-art span { border:1px solid #c6b8ab; border-radius:9px; padding:10px 13px; font-size:12px; display:flex; justify-content:space-between; }
+.lifestyle-art .selected { background:#fffaf4; border:2px solid var(--teal); color:var(--teal); font-weight:700; }
+.scenario-art { display:grid; grid-template-columns:repeat(8,1fr); gap:5px; margin-top:auto; padding-top:20px; }
+.scenario-art span { aspect-ratio:1; border-radius:4px; background:var(--teal); }
+.scenario-art span.unfunded { background:#b86b5f; }
+.story { display:grid; grid-template-columns:1fr 1fr; gap:100px; padding-block:40px 110px; align-items:center; }
+.story p { color:var(--muted); max-width:470px; }
+.premium { border-radius:26px; background:linear-gradient(110deg,#163a40,#126f67); color:#effff4; padding:54px; display:grid; grid-template-columns:1.2fr 1fr; gap:90px; align-items:center; }
+.premium .eyebrow { color:#b9ddc6; }
+.premium p { color:#d0e4dd; }
+.button-light { background:#eff4e9; color:#17443d; }
+.button-light:hover { background:white; }
+.price { border-left:1px solid #ffffff30; padding-left:42px; }
+.price>span { text-transform:uppercase; letter-spacing:1px; font-size:10px; }
+.price strong { display:block; font-size:64px; line-height:1.4; letter-spacing:-3px; }
+.price strong small { font-size:16px; font-weight:450; letter-spacing:0; margin-left:6px; }
+.small { font-size:12px; line-height:1.65; color:var(--muted); }
+.contact-strip { display:flex; align-items:center; justify-content:space-between; gap:32px; padding-block:80px; }
+.contact-strip h2 { font-size:30px; max-width:600px; margin-bottom:12px; }
+.contact-strip p { color:var(--muted); margin:0; }
+.button-outline { border-color:var(--teal); color:var(--teal); background:transparent; white-space:nowrap; }
+.button-outline:hover { color:white; }
+.site-footer { display:grid; grid-template-columns:1fr auto; align-items:start; gap:26px; padding-block:36px; border-top:1px solid var(--line); }
+.site-footer p { color:var(--muted); font-size:12px; margin-block:9px 0; }
+.site-footer>.small { grid-column:1/-1; max-width:700px; }
+.brand-dot { width:8px; height:8px; border-radius:50%; background:var(--teal); margin-left:0; }
+/* Policy pages use a narrower reading column and native accessible disclosures. */
+.policy { max-width:820px; padding-block:64px 86px; }
+.policy h1 { font-size:clamp(44px,6vw,68px); }
+.policy .intro { max-width:670px; }
+.policy section { padding-top:28px; margin-top:22px; border-top:1px solid var(--line); }
+.policy section h2 { font-size:27px; letter-spacing:-.6px; margin-bottom:18px; }
+.policy section p { color:var(--muted); }
+.policy-highlight { background:#e5eee5; border-left:4px solid var(--teal); padding:22px 26px; border-radius:0 12px 12px 0; margin-block:30px; font-weight:550; }
+.support-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; padding-bottom:22px; }
+.support-card { padding:24px; border-radius:16px; background:#e8eee5; text-decoration:none; }
+.support-card:hover { background:#dce8dc; }
+.support-card>span { float:right; }
+.policy .support-card h2 { font-size:23px; margin-block:0 12px; }
+.support-card p { font-size:14px; margin:0; }
+details { border-bottom:1px solid var(--line); padding-block:16px; }
+summary { cursor:pointer; font-weight:600; padding-block:6px; }
+details p { margin-block:14px 8px; padding-right:16px; }
+@media (max-width:900px) {
+  .hero { gap:24px; min-height:680px; }
+  .feature { padding:24px; }
+  h3 { font-size:26px; }
+  .story { gap:45px; }
+  .premium { padding:36px; gap:36px; }
+  .price { padding-left:28px; }
+}
+@media (max-width:650px) {
+  .wrap { width:calc(100% - 40px); }
+  .site-header { padding-block:20px; flex-wrap:wrap; gap:8px; }
+  .brand { font-size:21px; }
+  nav { gap:20px; }
+  nav a { font-size:12px; }
+  .hero { grid-template-columns:1fr; padding-top:48px; gap:48px; }
+  .hero-copy { max-width:500px; }
+  .hero h1 { font-size:56px; }
+  .intro { font-size:17px; }
+  .preview { margin-block:8px; }
+  .preview .device-photo-link { width:330px; }
+  .screenshot-gallery { grid-auto-columns:245px; gap:18px; }
+  .story-copy { grid-template-columns:1fr; gap:0; }
+  .halo { max-width:100%; }
+  .hero-notes { font-size:11px; gap:12px; }
+  .feature-grid,.story,.premium { grid-template-columns:1fr; }
+  .feature-grid { gap:18px; }
+  .feature { padding:28px; }
+  .account-art,.lifestyle-art,.scenario-art { max-width:330px; width:100%; }
+  .section { padding-block:54px; }
+  .story { padding-bottom:64px; gap:30px; }
+  .premium { padding:30px; gap:22px; }
+  .price { border-left:0; border-top:1px solid #ffffff30; padding:26px 0 0; }
+  .contact-strip { flex-direction:column; align-items:flex-start; padding-block:54px; }
+  .site-footer { grid-template-columns:1fr; }
+  .policy { padding-block:44px 62px; }
+  .support-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
