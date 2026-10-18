@@ -12,7 +12,7 @@ img { max-width:100%; }
 .site-header { display:flex; align-items:center; justify-content:space-between; gap:22px; padding-block:26px; }
 .brand { display:inline-flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none; font-size:23px; font-weight:750; letter-spacing:-.8px; }
 .brand img { border-radius:12px; }
-nav { display:flex; align-items:center; gap:28px; }
+nav { display:flex; align-items:center; flex-wrap:wrap; gap:28px; }
 nav a { color:var(--ink); text-decoration:none; font-size:14px; font-weight:600; padding-block:10px; }
 nav a:hover { text-decoration:underline; }
 .hero { min-height:760px; display:grid; grid-template-columns:1.15fr 1fr; align-items:center; gap:56px; padding-block:54px 88px; }
@@ -74,6 +74,8 @@ figcaption { color:var(--muted); font-size:11px; text-align:center; margin-top:1
 .premium { border-radius:26px; background:linear-gradient(110deg,#163a40,#126f67); color:#effff4; padding:54px; display:grid; grid-template-columns:1.2fr 1fr; gap:90px; align-items:center; }
 .premium .eyebrow { color:#b9ddc6; }
 .premium p { color:#d0e4dd; }
+.premium-roadmap { margin:18px 0 0; }
+.premium-roadmap a { color:#effff4; font-weight:650; }
 .button-light { background:#eff4e9; color:#17443d; }
 .button-light:hover { background:white; }
 .price { border-left:1px solid #ffffff30; padding-left:42px; }
@@ -107,6 +109,11 @@ figcaption { color:var(--muted); font-size:11px; text-align:center; margin-top:1
 details { border-bottom:1px solid var(--line); padding-block:16px; }
 summary { cursor:pointer; font-weight:600; padding-block:6px; }
 details p { margin-block:14px 8px; padding-right:16px; }
+/* Planned improvements use the same cards and colours as the rest of the site. */
+.roadmap-list { list-style:none; padding:0; margin:32px 0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.roadmap-list li { padding:24px; border:1px solid var(--line); border-left:4px solid var(--teal); border-radius:16px; background:#fff; }
+.roadmap-list h2 { font-size:23px; letter-spacing:-.6px; margin-bottom:12px; }
+.roadmap-list p { color:var(--muted); font-size:15px; margin:0; }
 @media (max-width:900px) {
   .hero { gap:24px; min-height:680px; }
   .feature { padding:24px; }
@@ -143,5 +150,6 @@ details p { margin-block:14px 8px; padding-right:16px; }
   .site-footer { grid-template-columns:1fr; }
   .policy { padding-block:44px 62px; }
   .support-grid { grid-template-columns:1fr; }
+  .roadmap-list { grid-template-columns:1fr; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }

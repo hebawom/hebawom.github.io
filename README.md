@@ -1,6 +1,6 @@
 # Retirement website
 
-A self-contained static website: app introduction, privacy policy, terms and support. It uses plain HTML/CSS, system fonts and local images. No build step, analytics, cookies, third-party embeds or form service is added.
+A self-contained static website: app introduction, development roadmap, privacy policy, terms and support. It uses plain HTML/CSS, system fonts and local images. No build step, analytics, cookies, third-party embeds or form service is added.
 
 ## Preview
 
@@ -12,9 +12,25 @@ Open `index.html` in a browser. Navigation also works when hosted under a GitHub
 2. Upload the **contents** of this folder, including `index.html`, `styles.css`, `assets/`, the policy/support pages and `.nojekyll`, to the root of the repository's `main` branch.
 3. In the repository, open **Settings → Pages → Build and deployment**. Select **Deploy from a branch**, then **main / (root)**, and save.
 4. GitHub displays the published address, normally `https://USERNAME.github.io/REPOSITORY/`. Enable HTTPS if it is offered. A custom domain can be added later; none is necessary to begin.
-5. Use the main address as the marketing URL, `privacy.html` as the privacy-policy URL and `support.html` as the support URL in App Store Connect. Add the final privacy URL to the app once the real address is known.
+5. Use the main address as the marketing URL, `privacy.html` as the privacy-policy URL and `support.html` as the support URL in App Store Connect.
 
-No GitHub repository or public deployment has been created by preparing these files.
+The owner has published this site from `hebawom/hebawom.github.io`. The app now uses these live addresses in Settings, its privacy explanation and the subscription privacy-policy link.
+
+## Live addresses for App Store Connect
+
+| Field | Address |
+| --- | --- |
+| Marketing URL | https://hebawom.github.io/ |
+| Support URL | https://hebawom.github.io/support.html |
+| Privacy Policy URL | https://hebawom.github.io/privacy.html |
+
+Subscription information is at https://hebawom.github.io/terms.html. Apple's standard EULA remains the subscription offer's licence destination.
+
+## Development roadmap
+
+`roadmap.html` describes the seven planned improvements. The app's subscription offer and **Settings → Developer → Development roadmap** open `https://hebawom.github.io/roadmap.html`. The website navigation, footer and Premium section link there too.
+
+Publish the updated website folder, including the new page and updated `styles.css`, before distributing an app build with this link. Future roadmap wording can then be changed on the website without releasing a new app build. The page describes planned work, without promising release dates or making the subscription depend on unreleased features.
 
 ## Screenshots and release details
 
