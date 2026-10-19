@@ -4,29 +4,29 @@
   "originals_modified": false,
   "screenshots": [
     {
-      "source": "IMG_3257.PNG",
+      "source": "IMG_3278.png",
       "name": "scenario-grid",
       "title": "Explore market scenarios",
-      "source_bytes": 1274796,
+      "source_bytes": 1478670,
       "landscape": false,
       "screen": {
         "file": "scenario-grid.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 112852
+        "bytes": 110138
       },
       "framed": [
         {
           "file": "scenario-grid-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 47384
+          "bytes": 46424
         },
         {
           "file": "scenario-grid-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 100468
+          "bytes": 98714
         }
       ]
     },
@@ -85,56 +85,56 @@
       ]
     },
     {
-      "source": "IMG_3260.PNG",
+      "source": "IMG_3275.PNG",
       "name": "spending-leisure",
       "title": "Make room for leisure",
-      "source_bytes": 3030706,
+      "source_bytes": 3059166,
       "landscape": false,
       "screen": {
         "file": "spending-leisure.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 126620
+        "bytes": 119846
       },
       "framed": [
         {
           "file": "spending-leisure-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 46634
+          "bytes": 44486
         },
         {
           "file": "spending-leisure-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 108220
+          "bytes": 103210
         }
       ]
     },
     {
-      "source": "IMG_3261.PNG",
+      "source": "IMG_3277.PNG",
       "name": "overview",
       "title": "Your retirement overview",
-      "source_bytes": 2255672,
+      "source_bytes": 2655900,
       "landscape": false,
       "screen": {
         "file": "overview.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 99050
+        "bytes": 95380
       },
       "framed": [
         {
           "file": "overview-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 38214
+          "bytes": 36002
         },
         {
           "file": "overview-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 88244
+          "bytes": 84798
         }
       ]
     },
@@ -166,164 +166,164 @@
       ]
     },
     {
-      "source": "IMG_3263.PNG",
+      "source": "IMG_3282.PNG",
       "name": "funding-chart",
       "title": "See how each year is funded",
-      "source_bytes": 135525,
+      "source_bytes": 142326,
       "landscape": true,
       "screen": {
         "file": "funding-chart.webp",
         "width": 2048,
         "height": 945,
-        "bytes": 45396
+        "bytes": 48014
       },
       "framed": [
         {
           "file": "funding-chart-phone-960.webp",
           "width": 960,
           "height": 489,
-          "bytes": 27364
+          "bytes": 28494
         },
         {
           "file": "funding-chart-phone-1920.webp",
           "width": 1920,
           "height": 977,
-          "bytes": 61696
+          "bytes": 64350
         }
       ]
     },
     {
-      "source": "IMG_3264.PNG",
+      "source": "IMG_3281.png",
       "name": "scenario-detail",
       "title": "Explore individual scenario outcomes",
-      "source_bytes": 1015062,
+      "source_bytes": 1078321,
       "landscape": false,
       "screen": {
         "file": "scenario-detail.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 72246
+        "bytes": 70094
       },
       "framed": [
         {
           "file": "scenario-detail-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 29726
+          "bytes": 28986
         },
         {
           "file": "scenario-detail-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 70080
+          "bytes": 69022
         }
       ]
     },
     {
-      "source": "IMG_3265.PNG",
+      "source": "IMG_3276.PNG",
       "name": "timeline",
       "title": "Scrub through your retirement timeline",
-      "source_bytes": 1112180,
+      "source_bytes": 1180851,
       "landscape": false,
       "screen": {
         "file": "timeline.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 109864
+        "bytes": 106592
       },
       "framed": [
         {
           "file": "timeline-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 40740
+          "bytes": 39984
         },
         {
           "file": "timeline-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 94750
+          "bytes": 93156
         }
       ]
     },
     {
-      "source": "IMG_3266.PNG",
+      "source": "IMG_3274.PNG",
       "name": "my-plan",
       "title": "Bring pensions and savings together",
-      "source_bytes": 1127536,
+      "source_bytes": 1105959,
       "landscape": false,
       "screen": {
         "file": "my-plan.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 96826
+        "bytes": 84204
       },
       "framed": [
         {
           "file": "my-plan-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 37894
+          "bytes": 33870
         },
         {
           "file": "my-plan-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 85998
+          "bytes": 79478
         }
       ]
     },
     {
-      "source": "IMG_3267.PNG",
+      "source": "IMG_3279.png",
       "name": "life-events",
       "title": "Plan life events and changing spending",
-      "source_bytes": 1059783,
+      "source_bytes": 1149937,
       "landscape": false,
       "screen": {
         "file": "life-events.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 100910
+        "bytes": 91784
       },
       "framed": [
         {
           "file": "life-events-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 38468
+          "bytes": 36462
         },
         {
           "file": "life-events-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 89974
+          "bytes": 83710
         }
       ]
     },
     {
-      "source": "IMG_3268.PNG",
+      "source": "IMG_3280.png",
       "name": "spending-summary",
       "title": "See your spending at a glance",
-      "source_bytes": 1037099,
+      "source_bytes": 1011622,
       "landscape": false,
       "screen": {
         "file": "spending-summary.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 91054
+        "bytes": 93710
       },
       "framed": [
         {
           "file": "spending-summary-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 36096
+          "bytes": 36484
         },
         {
           "file": "spending-summary-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 82538
+          "bytes": 84714
         }
       ]
     },
@@ -353,6 +353,101 @@
           "bytes": 73952
         }
       ]
+    }
+  ],
+  "widgets": [
+    {
+      "source": "IMG_3284.jpg",
+      "name": "widget-line",
+      "title": "Line retirement countdown widget",
+      "source_bytes": 194379,
+      "crop": {
+        "left": 76,
+        "top": 61,
+        "right": 1106,
+        "bottom": 549,
+        "width": 1030,
+        "height": 488,
+        "corner_radius": 76
+      },
+      "variants": [
+        {
+          "file": "widget-line-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 10608
+        },
+        {
+          "file": "widget-line-960.webp",
+          "width": 960,
+          "height": 455,
+          "bytes": 23694
+        }
+      ]
+    },
+    {
+      "source": "IMG_3284.jpg",
+      "name": "widget-dots",
+      "title": "Dotted retirement countdown widget",
+      "source_bytes": 194379,
+      "crop": {
+        "left": 76,
+        "top": 654,
+        "right": 1106,
+        "bottom": 1142,
+        "width": 1030,
+        "height": 488,
+        "corner_radius": 76
+      },
+      "variants": [
+        {
+          "file": "widget-dots-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 9942
+        },
+        {
+          "file": "widget-dots-960.webp",
+          "width": 960,
+          "height": 455,
+          "bytes": 21668
+        }
+      ]
+    },
+    {
+      "source": "IMG_3284.jpg",
+      "name": "widget-calendar",
+      "title": "Calendar retirement countdown widget",
+      "source_bytes": 194379,
+      "crop": {
+        "left": 76,
+        "top": 1246,
+        "right": 1106,
+        "bottom": 1734,
+        "width": 1030,
+        "height": 488,
+        "corner_radius": 76
+      },
+      "variants": [
+        {
+          "file": "widget-calendar-480.webp",
+          "width": 480,
+          "height": 227,
+          "bytes": 10866
+        },
+        {
+          "file": "widget-calendar-960.webp",
+          "width": 960,
+          "height": 455,
+          "bytes": 24262
+        }
+      ]
+    }
+  ],
+  "unmatched_sources": [
+    {
+      "source": "IMG_3283.png",
+      "reason": "Alternative funding-chart detail state; no separate website position."
     }
   ]
 }

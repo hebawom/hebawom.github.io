@@ -69,19 +69,12 @@ figcaption { color:var(--muted); font-size:11px; text-align:center; margin-top:1
 .scenario-art { display:grid; grid-template-columns:repeat(8,1fr); gap:5px; margin-top:auto; padding-top:20px; }
 .scenario-art span { aspect-ratio:1; border-radius:4px; background:var(--teal); }
 .scenario-art span.unfunded { background:#b86b5f; }
-.countdown-styles { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:34px; }
-.countdown-styles article { min-height:245px; padding:26px; border:1px solid var(--line); border-radius:22px; background:#fff; }
-.countdown-styles h3 { font-size:23px; margin:22px 0 9px; }
-.countdown-styles p { color:var(--muted); font-size:14px; margin:0; }
-.countdown-dots { width:88px; height:88px; display:grid; place-items:center; border:8px dotted #126f67; border-radius:50%; color:var(--ink); font-size:21px; font-weight:750; }
-.countdown-line { display:grid; gap:12px; color:var(--ink); padding-top:22px; }
-.countdown-line b { font-size:27px; }
-.countdown-line i { display:block; height:10px; overflow:hidden; border-radius:20px; background:#dbe4de; }
-.countdown-line i span { display:block; width:57%; height:100%; border-radius:inherit; background:var(--teal); }
-.countdown-calendar { width:110px; overflow:hidden; border:1px solid var(--line); border-radius:13px; text-align:center; background:#fff; }
-.countdown-calendar b { display:block; padding:5px; color:#fff; background:var(--teal); font-size:8px; letter-spacing:1px; }
-.countdown-calendar strong { display:block; padding-top:7px; font-size:34px; line-height:1; }
-.countdown-calendar span { display:block; padding:5px 0 9px; color:var(--muted); font-size:11px; }
+.widget-styles { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:34px; }
+.widget-card { margin:0; }
+.widget-card a { display:block; border-radius:28px; text-decoration:none; }
+.widget-card img { display:block; width:100%; height:auto; }
+.widget-card figcaption { margin-top:14px; text-align:left; }
+.widget-card h3 { font-size:23px; margin:0; }
 .story { display:grid; grid-template-columns:1fr 1fr; gap:100px; padding-block:40px 110px; align-items:center; }
 .story p { color:var(--muted); max-width:470px; }
 .premium { border-radius:26px; background:linear-gradient(110deg,#163a40,#126f67); color:#effff4; padding:54px; display:grid; grid-template-columns:1.2fr 1fr; gap:90px; align-items:center; }
@@ -151,7 +144,7 @@ details p { margin-block:14px 8px; padding-right:16px; }
   .story-copy { grid-template-columns:1fr; gap:0; }
   .halo { max-width:100%; }
   .hero-notes { font-size:11px; gap:12px; }
-  .feature-grid,.story,.premium,.countdown-styles { grid-template-columns:1fr; }
+  .feature-grid,.story,.premium,.widget-styles { grid-template-columns:1fr; }
   .feature-grid { gap:18px; }
   .feature { padding:28px; }
   .account-art,.lifestyle-art,.scenario-art { max-width:330px; width:100%; }
