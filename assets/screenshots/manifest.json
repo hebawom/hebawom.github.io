@@ -166,29 +166,29 @@
       ]
     },
     {
-      "source": "IMG_3282.PNG",
+      "source": "IMG_3283.png",
       "name": "funding-chart",
-      "title": "See how each year is funded",
-      "source_bytes": 142326,
+      "title": "See how the selected year is funded",
+      "source_bytes": 861644,
       "landscape": true,
       "screen": {
         "file": "funding-chart.webp",
         "width": 2048,
         "height": 945,
-        "bytes": 48014
+        "bytes": 66668
       },
       "framed": [
         {
           "file": "funding-chart-phone-960.webp",
           "width": 960,
           "height": 489,
-          "bytes": 28494
+          "bytes": 33710
         },
         {
           "file": "funding-chart-phone-1920.webp",
           "width": 1920,
           "height": 977,
-          "bytes": 64350
+          "bytes": 78960
         }
       ]
     },
@@ -446,8 +446,8 @@
   ],
   "unmatched_sources": [
     {
-      "source": "IMG_3283.png",
-      "reason": "Alternative funding-chart detail state; no separate website position."
+      "source": "IMG_3282.PNG",
+      "reason": "Alternative unselected funding-chart state; no separate website position."
     }
   ]
 }

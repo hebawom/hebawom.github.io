@@ -69,12 +69,10 @@ figcaption { color:var(--muted); font-size:11px; text-align:center; margin-top:1
 .scenario-art { display:grid; grid-template-columns:repeat(8,1fr); gap:5px; margin-top:auto; padding-top:20px; }
 .scenario-art span { aspect-ratio:1; border-radius:4px; background:var(--teal); }
 .scenario-art span.unfunded { background:#b86b5f; }
-.widget-styles { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:34px; }
+.widget-styles { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; width:min(764px,100%); margin-top:34px; }
 .widget-card { margin:0; }
 .widget-card a { display:block; border-radius:28px; text-decoration:none; }
 .widget-card img { display:block; width:100%; height:auto; }
-.widget-card figcaption { margin-top:14px; text-align:left; }
-.widget-card h3 { font-size:23px; margin:0; }
 .story { display:grid; grid-template-columns:1fr 1fr; gap:100px; padding-block:40px 110px; align-items:center; }
 .story p { color:var(--muted); max-width:470px; }
 .premium { border-radius:26px; background:linear-gradient(110deg,#163a40,#126f67); color:#effff4; padding:54px; display:grid; grid-template-columns:1.2fr 1fr; gap:90px; align-items:center; }
