@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88 62" fill="none">
+  <title>Sevenfold Studios</title>
+  <!-- Same 68 by 48 monogram and padding as SevenfoldMark in PaintTheTownRed. -->
+  <defs>
+    <path id="mark" d="M21.56 12.76H66.44M36.86 12.76V51.16M51.14 12.76V51.16M21.56 31H66.44"/>
+  </defs>
+  <rect width="88" height="62" rx="10" fill="#17343d"/>
+  <g stroke="white" stroke-linecap="square" stroke-linejoin="miter">
+    <use xlink:href="#mark" stroke-width="10"/>
+    <!-- Composite the original hollow centre against the footer badge colour. -->
+    <use xlink:href="#mark" stroke="#17343d" stroke-width="5"/>
+    <rect x="0.5" y="0.5" width="87" height="61" rx="10" stroke-opacity="0.78"/>
+  </g>
+</svg>

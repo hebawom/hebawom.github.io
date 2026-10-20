@@ -4,29 +4,29 @@
   "originals_modified": false,
   "screenshots": [
     {
-      "source": "IMG_3278.png",
+      "source": "IMG_3291.PNG",
       "name": "scenario-grid",
       "title": "Explore market scenarios",
-      "source_bytes": 1478670,
+      "source_bytes": 1259853,
       "landscape": false,
       "screen": {
         "file": "scenario-grid.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 110138
+        "bytes": 115236
       },
       "framed": [
         {
           "file": "scenario-grid-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 46424
+          "bytes": 47164
         },
         {
           "file": "scenario-grid-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 98714
+          "bytes": 103646
         }
       ]
     },
@@ -112,56 +112,56 @@
       ]
     },
     {
-      "source": "IMG_3277.PNG",
+      "source": "IMG_3287.PNG",
       "name": "overview",
       "title": "Your retirement overview",
-      "source_bytes": 2655900,
+      "source_bytes": 2662157,
       "landscape": false,
       "screen": {
         "file": "overview.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 95380
+        "bytes": 94664
       },
       "framed": [
         {
           "file": "overview-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 36002
+          "bytes": 36078
         },
         {
           "file": "overview-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 84798
+          "bytes": 84312
         }
       ]
     },
     {
-      "source": "IMG_3262.PNG",
+      "source": "IMG_3292.PNG",
       "name": "next-steps",
       "title": "Find ways to bridge a funding gap",
-      "source_bytes": 1131218,
+      "source_bytes": 1160041,
       "landscape": false,
       "screen": {
         "file": "next-steps.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 104698
+        "bytes": 103656
       },
       "framed": [
         {
           "file": "next-steps-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 38372
+          "bytes": 38118
         },
         {
           "file": "next-steps-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 89872
+          "bytes": 89426
         }
       ]
     },
@@ -220,110 +220,110 @@
       ]
     },
     {
-      "source": "IMG_3276.PNG",
+      "source": "IMG_3290.PNG",
       "name": "timeline",
       "title": "Scrub through your retirement timeline",
-      "source_bytes": 1180851,
+      "source_bytes": 1192011,
       "landscape": false,
       "screen": {
         "file": "timeline.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 106592
+        "bytes": 109414
       },
       "framed": [
         {
           "file": "timeline-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 39984
+          "bytes": 41236
         },
         {
           "file": "timeline-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 93156
+          "bytes": 95892
         }
       ]
     },
     {
-      "source": "IMG_3274.PNG",
+      "source": "IMG_3288.PNG",
       "name": "my-plan",
       "title": "Bring pensions and savings together",
-      "source_bytes": 1105959,
+      "source_bytes": 1089302,
       "landscape": false,
       "screen": {
         "file": "my-plan.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 84204
+        "bytes": 93854
       },
       "framed": [
         {
           "file": "my-plan-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 33870
+          "bytes": 35700
         },
         {
           "file": "my-plan-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 79478
+          "bytes": 85544
         }
       ]
     },
     {
-      "source": "IMG_3279.png",
+      "source": "IMG_3293.PNG",
       "name": "life-events",
       "title": "Plan life events and changing spending",
-      "source_bytes": 1149937,
+      "source_bytes": 1048808,
       "landscape": false,
       "screen": {
         "file": "life-events.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 91784
+        "bytes": 92830
       },
       "framed": [
         {
           "file": "life-events-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 36462
+          "bytes": 36174
         },
         {
           "file": "life-events-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 83710
+          "bytes": 85272
         }
       ]
     },
     {
-      "source": "IMG_3280.png",
+      "source": "IMG_3294.PNG",
       "name": "spending-summary",
       "title": "See your spending at a glance",
-      "source_bytes": 1011622,
+      "source_bytes": 948455,
       "landscape": false,
       "screen": {
         "file": "spending-summary.webp",
         "width": 1179,
         "height": 2556,
-        "bytes": 93710
+        "bytes": 95136
       },
       "framed": [
         {
           "file": "spending-summary-phone-480.webp",
           "width": 480,
           "height": 943,
-          "bytes": 36484
+          "bytes": 36880
         },
         {
           "file": "spending-summary-phone-960.webp",
           "width": 960,
           "height": 1886,
-          "bytes": 84714
+          "bytes": 85042
         }
       ]
     },
@@ -351,6 +351,60 @@
           "width": 960,
           "height": 1886,
           "bytes": 73952
+        }
+      ]
+    },
+    {
+      "source": "IMG_3289.PNG",
+      "name": "spending-holidays",
+      "title": "Choose your holiday budget",
+      "source_bytes": 3043978,
+      "landscape": false,
+      "screen": {
+        "file": "spending-holidays.webp",
+        "width": 1179,
+        "height": 2556,
+        "bytes": 125326
+      },
+      "framed": [
+        {
+          "file": "spending-holidays-phone-480.webp",
+          "width": 480,
+          "height": 943,
+          "bytes": 45296
+        },
+        {
+          "file": "spending-holidays-phone-960.webp",
+          "width": 960,
+          "height": 1886,
+          "bytes": 104958
+        }
+      ]
+    },
+    {
+      "source": "IMG_3295.PNG",
+      "name": "reminders",
+      "title": "Keep your next steps on track",
+      "source_bytes": 1459438,
+      "landscape": false,
+      "screen": {
+        "file": "reminders.webp",
+        "width": 1179,
+        "height": 2556,
+        "bytes": 119662
+      },
+      "framed": [
+        {
+          "file": "reminders-phone-480.webp",
+          "width": 480,
+          "height": 943,
+          "bytes": 44936
+        },
+        {
+          "file": "reminders-phone-960.webp",
+          "width": 960,
+          "height": 1886,
+          "bytes": 102520
         }
       ]
     }
@@ -444,10 +498,5 @@
       ]
     }
   ],
-  "unmatched_sources": [
-    {
-      "source": "IMG_3282.PNG",
-      "reason": "Alternative unselected funding-chart state; no separate website position."
-    }
-  ]
+  "unmatched_sources": []
 }
