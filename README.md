@@ -1,15 +1,21 @@
 # Horizon website
 
-A self-contained static website: app introduction, development roadmap, privacy policy, terms and support. It uses plain HTML/CSS, system fonts and local images. No build step, analytics, cookies, third-party embeds or form service is added.
+A self-contained static website: app introduction, development roadmap, privacy policy, terms and support. It uses plain HTML/CSS, system fonts and local images. No build step, advertising, third-party embeds or form service is added. Optional Google Analytics 4 starts only after a visitor accepts.
 
 ## Preview
 
 Open `index.html` in a browser. Navigation also works when hosted under a GitHub repository path.
 
+## Analytics consent
+
+The GA4 measurement ID is `G-SWJ9DHE2NK`. Each page loads the local `analytics.js`; it does not request Google's script or send analytics before the visitor accepts. The browser stores the choice when storage is available, and the footer's **Analytics settings** control lets visitors withdraw consent. When changing the measurement ID or script, update both website copies and keep the `v=20261031a` asset versions aligned.
+
+Publish all five HTML pages, `analytics.js` and `styles.css` together so consent controls and policy wording stay in sync.
+
 ## Publish with GitHub Pages
 
 1. Create a separate public GitHub repository, for example `retirement-app`. Publishing only this folder avoids making the app's source code public. GitHub Free supports Pages for public repositories.
-2. Upload the **contents** of this folder, including `index.html`, `styles.css`, `assets/`, the policy/support pages and `.nojekyll`, to the root of the repository's `main` branch.
+2. Upload the **contents** of this folder, including the five HTML pages, `analytics.js`, `styles.css`, `assets/` and `.nojekyll`, to the root of the repository's `main` branch.
 3. In the repository, open **Settings → Pages → Build and deployment**. Select **Deploy from a branch**, then **main / (root)**, and save.
 4. Configure the GitHub Pages custom domain as `horizon-retire.co.uk`, enable HTTPS, and publish the site at `https://horizon-retire.co.uk/`.
 5. Use the main address as the marketing URL, `privacy.html` as the privacy-policy URL and `support.html` as the support URL in App Store Connect.
