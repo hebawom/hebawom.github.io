@@ -200,24 +200,22 @@ details p { margin-block:14px 8px; padding-right:16px; }
   cursor:pointer;
 }
 .analytics-consent button:hover { filter:brightness(.94); }
+.analytics-consent button.is-selected, .analytics-consent button.is-selected:hover {
+  border-color:var(--ink);
+  background:var(--ink);
+  color:white;
+  filter:none;
+}
+.analytics-consent button:disabled { cursor:wait; }
+.analytics-consent-status { margin:8px 0 0; font-size:13px; font-weight:650; }
+.analytics-settings {
+  margin-top:12px;
+  cursor:pointer;
+  font:inherit;
+}
 .analytics-consent button:focus-visible, .analytics-settings:focus-visible {
   outline:3px solid var(--coral);
   outline-offset:3px;
-}
-.site-footer .analytics-settings {
-  grid-column:1/-1;
-  justify-self:start;
-  padding:10px 0;
-  border:0;
-  background:transparent;
-  color:var(--ink);
-  font:inherit;
-  font-size:14px;
-  font-weight:600;
-  text-align:left;
-  text-decoration:underline;
-  text-underline-offset:4px;
-  cursor:pointer;
 }
 @media (max-width:640px) {
   .analytics-consent {

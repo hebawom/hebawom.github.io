@@ -8,7 +8,7 @@ Open `index.html` in a browser. Navigation also works when hosted under a GitHub
 
 ## Analytics consent
 
-The GA4 measurement ID is `G-SWJ9DHE2NK`. Each page loads the local `analytics.js`; it does not request Google's script or send analytics before the visitor accepts. The browser stores the choice when storage is available, and the footer's **Analytics settings** control lets visitors withdraw consent. When changing the measurement ID or script, update both website copies and keep the `v=20261031a` asset versions aligned.
+The GA4 measurement ID is `G-SWJ9DHE2NK`. Each page loads the local `analytics.js`; it does not request Google's script or send analytics before the visitor accepts. The browser stores accepted or declined choices when storage is available. The prompt appears again in a new browser-tab session and shows the previous choice; visitors can change it from the button in the privacy policy. If storage cannot save a choice, it applies only to the current page. When changing the measurement ID or script, update both website copies and keep the `v=20261031b` asset versions aligned.
 
 Publish all five HTML pages, `analytics.js` and `styles.css` together so consent controls and policy wording stay in sync.
 
