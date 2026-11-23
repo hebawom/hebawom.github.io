@@ -231,13 +231,13 @@ details p { margin-block:14px 8px; padding-right:16px; }
   .analytics-consent button { padding-inline:8px; }
 }
 
-/* Duo captures use the same dark device edge as the phone gallery. */
+/* Framed Duo screenshots preserve their original display proportions. */
 .duo-intro { display:grid; grid-template-columns:1fr 1fr; gap:24px 56px; align-items:end; }
 .duo-intro h2 { margin-bottom:0; }
 .duo-intro > p { color:var(--muted); margin-bottom:4px; }
 .duo-feature { max-width:800px; margin:36px auto; }
 .duo-feature a { display:block; border-radius:24px; }
-.duo-section img { display:block; width:100%; height:auto; border:5px solid var(--ink); border-radius:24px; }
+.duo-section img { display:block; width:100%; height:auto; }
 .duo-section figcaption { margin-top:14px; color:var(--muted); }
 .duo-feature figcaption { font-size:14px; text-align:center; }
 .duo-detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
@@ -250,5 +250,8 @@ details p { margin-block:14px 8px; padding-right:16px; }
 @media (max-width:700px) {
   .duo-intro,.duo-detail-grid { grid-template-columns:1fr; }
   .duo-feature { margin-block:24px; }
-  .duo-section img,.duo-feature a { border-radius:14px; }
+  .duo-feature a { border-radius:14px; }
 }
+
+.roadmap-list .roadmap-complete { background:#eef6f0; }
+.roadmap-status { display:inline-flex; align-items:center; gap:6px; margin-bottom:10px; padding:3px 10px; border-radius:999px; background:#dceee2; color:#215739; font-size:13px; font-weight:700; }
